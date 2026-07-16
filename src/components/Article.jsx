@@ -1,6 +1,6 @@
 /* Article() component with props for the articles elements. */
 
-function Article({ title, date, dateLabel, imageSrc, imgAlt, text, relatedTitles}) {
+function Article({ title, date, dateLabel, imgSrc, imgAlt, text, relatedTitles}) {
 
     return (
 
@@ -10,7 +10,7 @@ function Article({ title, date, dateLabel, imageSrc, imgAlt, text, relatedTitles
 
             <time dateTime={date}>{dateLabel}</time>
 
-            <img src={imageSrc} alt={imgAlt} />
+            <img src={imgSrc} alt={imgAlt} />
 
             <p>{text}</p>
 
