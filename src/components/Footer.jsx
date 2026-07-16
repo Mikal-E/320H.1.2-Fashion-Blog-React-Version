@@ -1,5 +1,7 @@
 import Nav from "./Nav";
 
+/* Array of link objects stored in a variable, to use for passing props. */
+
 const footerLinks = [
 
     { label: "Home", href: "#" },
@@ -20,7 +22,7 @@ function Footer() {
         <footer>
 
             <Nav links={footerLinks} />
-            <div className="copyright">$copy; 2026 - Great Company Name</div>
+            <div className="copyright">&copy; 2026 - Great Company Name</div>
 
         </footer>
 
