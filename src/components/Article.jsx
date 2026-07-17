@@ -4,6 +4,8 @@ function Article({ title, date, dateLabel, imgSrc, imgAlt, text, relatedTitles})
 
     return (
 
+        <>
+
         <article>
 
             <h2 className="article-title">{title}</h2>
@@ -35,6 +37,12 @@ function Article({ title, date, dateLabel, imgSrc, imgAlt, text, relatedTitles})
             </aside>
 
         </article>
+
+        <div class="h-divider">
+            <div class="shadow"></div>
+        </div>
+
+        </>
 
     )
 
