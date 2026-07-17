@@ -31,7 +31,7 @@ const posts = [
     title: "Vintage in Vogue",
     date: "July 6 2026",
     dateLabel: "July 6, 2026",
-    imgSrc: ".images/blog-image-2.jpg",
+    imgSrc: "./images/blog-image-2.jpg",
     imgAlt: "3 models behind-the-scene observing fashion activities",
 
     text: `Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus
